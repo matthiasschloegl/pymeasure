@@ -36,7 +36,7 @@ class Agilent8257D(Instrument):
         generator = Agilent8257D("GPIB::1")
 
         generator.power = 0                     # Sets the output power to 0 dBm
-        generator.frequency = 5                 # Sets the output frequency to 5 GHz
+        generator.frequency = 5                 # Sets the output frequency to 5 Hz
         generator.enable()                      # Enables the output
 
     """
